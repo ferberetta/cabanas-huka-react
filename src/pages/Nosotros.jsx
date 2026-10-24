@@ -7,7 +7,7 @@ export default function Nosotros() {
       <div className="media-container">
         <div className="media-box">
           <video controls playsInline preload="metadata" className="chat-video">
-            <source src="/cabana.mp4" type="video/mp4" />
+            <source src={`${import.meta.env.BASE_URL}cabana.mp4`} type="video/mp4" />
             Tu navegador no soporta videos.
           </video>
         </div>

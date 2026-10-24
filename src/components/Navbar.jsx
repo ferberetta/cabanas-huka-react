@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <header>
       <Link to="/" className="logo-link">
-        <img src="/logo_Huka.png" alt="Cabañas Huka, ir al inicio" className="logo" />
+        <img src={`${import.meta.env.BASE_URL}logo_Huka.png`} alt="Cabañas Huka, ir al inicio" className="logo" />
       </Link>
       <nav>
         <ul>
